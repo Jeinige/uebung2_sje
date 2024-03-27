@@ -25,8 +25,8 @@ class Vector3:
         else:
             return Vector3(self.x*other.x,self.y*other.y,self.z*other.z)
 
-
-
+    def Skalarprodukt(self, other):
+        if type(other)==int
 a = Vector3(3,4,2) 
 b = Vector3(2,1,0) 
 c = a * b      # Komponentenweise Multiplikation 
