@@ -23,6 +23,6 @@ class Vector3:
 
 a = Vector3(3,4,2) 
 b = Vector3(2,1,0) 
-c = a * b      
-# Komponentenweise Multiplikation print(c) d = a.dot(b)   
-# Skalarprodukt e = a.cross(b) # Kreuzprodukt 
+c = a * b      # Komponentenweise Multiplikation 
+print(c) 
+z = a.dot(b)   # Skalarprodukt e = a.cross(b) # Kreuzprodukt 
